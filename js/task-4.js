@@ -13,6 +13,6 @@ function submitHandler(event) {
     password: password,
   };
   console.log(value);
-  form.reset;
+  form.reset();
 }
 form.addEventListener('submit', submitHandler);
