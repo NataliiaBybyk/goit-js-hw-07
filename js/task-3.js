@@ -1,5 +1,5 @@
-const input = document.querySelector('input');
-const nameOutput = document.querySelector('span');
+const input = document.querySelector('#name-input');
+const nameOutput = document.querySelector('#name-output');
 
 function inputHandler(event) {
   event.preventDefault();
